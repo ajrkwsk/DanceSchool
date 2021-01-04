@@ -1,0 +1,43 @@
+/* (min-width: 768px) */
+
+/* NAV */
+
+.nav-desktop {
+    position: absolute;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 50px;
+}
+
+.nav-desktop li {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 6px;
+    padding: 0 5px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: color .3;
+}
+
+.nav-desktop li:hover {
+    color: rgb(124, 100, 78);
+}
+
+.nav-mobile {
+    display: none;
+}
+
+/* HEADER */
+
+.hero-img {
+    background-image: url('/img/dancer-1489686_1280.jpg');
+}
+
+.hero-text {
+    font-size: 34px;
+}
+   
+
