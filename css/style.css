@@ -64,6 +64,107 @@ nav {
     background-color: rgba(0, 0, 0, .4);
 }
 
+/* MAIN */
+
+.wrapper {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px 0;
+    color: rgb(124, 100, 78);
+}
+
+.about-us p {
+    text-align: justify;
+    line-height: 20px;
+}
+
+.benefits {
+    position: relative;
+    list-style: none;
+    margin: 50px 0;
+    height: 120px;
+    width: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.benefits-text {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    bottom: 0;
+    text-shadow: 1px 1px 1px gray;
+}
+
+.benefits .fas, .far {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background: none;
+    font-size: 28px;
+    padding: 20px;
+    border: 3px solid rgb(124, 100, 78);
+    border-radius: 40px;
+    background-color: white;
+    color: black;
+}
+
+.courses {
+    position: relative;
+    height: 300px;
+    width: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.course-text {
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.course-gb {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .72);
+}
+
+.course-first {
+    background-image: url('../img/argentine-tango-2079964_640.jpg');
+}
+
+.course-second {
+    background-image: url('../img/city-5213067_640.jpg');
+
+}
+
+.course-third {
+    background-image: url('../img/people-2560382_640.jpg');
+
+}
+
+.course-tourth {
+    background-image: url('../img/ballet-1971600_640.jpg');
+}
+
+
+
+
 @media (min-width: 400px){
     .hero-text {
         font-size: 22px;

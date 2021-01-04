@@ -39,5 +39,49 @@
 .hero-text {
     font-size: 34px;
 }
+
+/* MAIN */
+
+.main-benefits {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-75%);
+}
+
+.main-benefits li {
+    display: inline-block;
+    margin: 40px 5px;
+}
+
+.benefits .benefits-text {
+    font-size: 13px;
+    /* padding-top: 20px; */
+}
+
+.benefits .fas, .far {
+    font-size: 24px;
+}
+
+.course-first {
+    background-image: url('../img/argentine-tango-2079964_1280.jpg');
+}
+
+.course-second {
+    background-image: url('../img/city-5213067_1280.jpg');
+
+}
+
+.course.third {
+    background-image: url('../img/people-2560382_1280.jpg');
+
+}
+
+.course.tourth {
+    background-image: url('../img/ballet-1971600_1280.jpg');
+}
+
    
 
