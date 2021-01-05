@@ -29,7 +29,7 @@
 
 .main-benefits li {
     display: inline-block;
-    margin: 40px 10px;
+    margin: 40px 30px;
 }
 
 .benefits .benefits-text {
@@ -57,4 +57,8 @@
 
 .course.tourth {
     background-image: url('../img/ballet-1971600_1920.jpg');
+}
+
+.courses {
+    width: 49%;
 }

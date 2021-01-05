@@ -11,10 +11,19 @@ body {
 /* NAV */
 
 nav {
+    position: sticky;
+    top: 0;
     height: 50px;
-    background-color: rgb(247, 244, 241);
     line-height: 50px;
+    z-index: 1;
     color: rgb(124, 100, 78);
+    background-color: rgb(247, 244, 241);
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(124, 100, 78);
+
 }
 
 .nav-mobile {
@@ -68,7 +77,7 @@ nav {
 
 .wrapper {
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
 }
 
@@ -110,7 +119,7 @@ h2 {
     background: none;
     font-size: 28px;
     padding: 20px;
-    border: 3px solid rgb(124, 100, 78);
+    border: 2px solid rgb(124, 100, 78);
     border-radius: 40px;
     background-color: white;
     color: black;
@@ -118,27 +127,32 @@ h2 {
 
 .courses {
     position: relative;
-    height: 300px;
-    width: 350px;
+    height: 250px;
+    width: 100%;
+    display: inline-block;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .course-text {
     position: absolute;
-    color: white;
-    font-size: 14px;
+    font-size: 20px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(247, 244, 241);
+    text-shadow: 2px 3px 3px black;
+    transition: text-decoration .3s;
 }
 
-.course-gb {
-    position: absolute;
+.courses:hover .course-text {
+    text-decoration:underline;
+}
+
+.course-bg {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, .72);
@@ -162,8 +176,36 @@ h2 {
     background-image: url('../img/ballet-1971600_640.jpg');
 }
 
+.contact {
+    text-align: center;
+    font-size: 14px;
+}
 
+.contact i {
+    background: none;
+    margin-right: 10px;
+}
 
+.contact h3 {
+    text-transform: uppercase;
+    margin: 10px 0 5px 0;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: rgb(247, 244, 241);
+    font-size: 10px;
+}
+
+footer span {
+    text-transform: uppercase;
+    padding-right: 5px;
+}
 
 @media (min-width: 400px){
     .hero-text {

@@ -19,11 +19,14 @@
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
+}
+
+.nav-desctop a {
     transition: color .3;
 }
 
-.nav-desktop li:hover {
-    color: rgb(124, 100, 78);
+.nav-desktop a:hover {
+    color: rgb(170, 134, 96);
 }
 
 .nav-mobile {
@@ -48,7 +51,7 @@
     max-width: 1200px;
     position: absolute;
     left: 50%;
-    transform: translateX(-75%);
+    transform: translateX(-85%);
 }
 
 .main-benefits li {
@@ -83,5 +86,23 @@
     background-image: url('../img/ballet-1971600_1280.jpg');
 }
 
+.section-courses {
+    margin-top: 250px;
+    width: 100%;
+}
+
+.course-text {
+    font-size: 27px;
+}
+
+.contact {
+    font-size: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 16px;
+}
    
 
